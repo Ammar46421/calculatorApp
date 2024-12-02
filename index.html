@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mathematical Calculator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="display-screen">0</div>
+      <div class="button-container">
+        <button class="btns" onclick="btnClicker('AC')">AC</button>
+        <button class="btns" onclick="clearInput()">Del</button>
+        <button class="btns" onclick="btnClicker('%')">%</button>
+        <button class="btns" onclick="btnClicker('/')">/</button>
+        <button class="btns" onclick="btnClicker('7')">7</button>
+        <button class="btns" onclick="btnClicker('8')">8</button>
+        <button class="btns" onclick="btnClicker('9')">9</button>
+        <button class="btns" onclick="btnClicker('*')">X</button>
+        <button class="btns" onclick="btnClicker('4')">4</button>
+        <button class="btns" onclick="btnClicker('5')">5</button>
+        <button class="btns" onclick="btnClicker('6')">6</button>
+        <button class="btns" onclick="btnClicker('-')">-</button>
+        <button class="btns" onclick="btnClicker('1')">1</button>
+        <button class="btns" onclick="btnClicker('2')">2</button>
+        <button class="btns" onclick="btnClicker('3')">3</button>
+        <button class="btns" onclick="btnClicker('+')">+</button>
+        <button class="btns" id="btn-zero" onclick="btnClicker('0')">0</button>
+        <button class="btns" onclick="btnClicker('.')">.</button>
+        <button class="btns" onclick="result()">=</button>
+      </div>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>
